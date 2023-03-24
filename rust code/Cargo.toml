@@ -1,0 +1,17 @@
+[package]
+name = "iqp-sim"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "4.0.29", features = ["derive"] }
+csv = "1.1.6"
+indicatif = "0.17.2"
+ndarray = "0.15.6"
+ndarray-rand = "0.14.0"
+num-complex = "0.4.2"
+petgraph = "0.6.2"
+rand = "0.8.5"
+rayon = "1.6.1"
